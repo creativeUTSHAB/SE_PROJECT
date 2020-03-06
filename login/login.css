@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.bgimg{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(27deg, #663300 50%, #996600 50%);
+}
+#profilepic{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -60px;
+    left:calc((600px - 120px)/2);
+    border-radius: 50%;
+}
+.centerdiv{
+    color: 2px solid red;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image:linear-gradient(27deg, #996600 50%, #663300 50%);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1),0px 1px 4px rgba(0, 0, 0, 0.24);
+}
+h2{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2em;
+    word-spacing: 10px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-shadow: -2px 2px 1px #ff9933;
+}
+
+.inputbox{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+::placeholder{
+    letter-spacing:2px ;
+    font-size: 1.15rem;
+    color: black;
+}
+#loginbtn{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    color:white;
+    background-color: #c6840a;
+    border: none;
+    cursor: pointer;
+}
+.forgotsec{
+    color: black;
+    width: calc(100% - 40px);
+    text-decoration: none;
+    font-size: 0.9em;
+    margin: auto;
+    display: block;
+
+}
+div#agree{
+    width: 150px;
+    height:30px;
+    /* border: 2px solid red; */
+    /* display: flex; */
+    display: inline-flex;
+    padding: 5px;
+    margin: 19px;
+}
+div#agree div{
+    width: 120px;
+}
+div#agree input{
+    width: 20px;
+    height: 20px;
+}
